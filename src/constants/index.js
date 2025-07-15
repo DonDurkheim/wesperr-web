@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { don, yves, eric, Alain, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
 
 export const navLinks = [
   {
@@ -6,16 +6,16 @@ export const navLinks = [
     title: "Home",
   },
   {
+    id: "product",
+    title: "Products",
+  },
+  {
     id: "features",
     title: "Features",
   },
   {
-    id: "product",
-    title: "Product",
-  },
-  {
     id: "clients",
-    title: "Clients",
+    title: "Team",
   },
 ];
 
@@ -23,23 +23,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Own Your Data",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "With WeSperr, data isn’t just information—it’s an asset. You hold the rights, the keys, and the revenue it generates.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Ironclad Privacy",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Your data stays encrypted, anonymized, and under your control. Zero-knowledge infrastructure means not even WeSperr sees what’s yours.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Effortless Monetization",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Turn everyday clicks and taps into income. We connect your data with vetted AI buyers—securely, ethically, and profitably.",
   },
 ];
 
@@ -47,70 +47,78 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
-    img: people01,
+      "CEO and Founder",
+    name: "Don Durkheim",
+    title: "CEO and Founder",
+    img: don,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
-    img: people02,
+      "Chief Technology Officer",
+    name: "ISHIMWE Karamage Yves",
+    title: "Chief Technology Officer",
+    img: yves,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-    img: people03,
+      "Sales and Marketing Coordinator",
+    name: "Eric Ndayishimiye",
+    title: "Sales and Marketing Coordinator",
+    img: eric,
+  },
+  {
+    id: "feedback-4",
+    content:
+      "Mobile Developer",
+    name: "Alain Kwishima",
+    title: "Mobile Developer",
+    img: Alain,
   },
 ];
 
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "User Accounts",
+    value: "50,000+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "Data Transactions",
+    value: "1M+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "User Payouts",
+    value: "$500K+",
   },
 ];
 
 export const footerLinks = [
   {
-    title: "Useful Links",
+    title: "WeSperr",
     links: [
       {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
+        name: "About Us",
+        link: "/about",
       },
       {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+        name: "How It Works",
+        link: "/how-it-works",
       },
       {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
+        name: "FAQs",
+        link: "/faq",
       },
       {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
+        name: "Security",
+        link: "/security",
       },
       {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        name: "Terms & Privacy",
+        link: "/terms",
       },
     ],
   },
@@ -119,36 +127,36 @@ export const footerLinks = [
     links: [
       {
         name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
+        link: "/help",
       },
       {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
-      },
-      {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
+        name: "Contributors",
+        link: "/contributors",
       },
       {
         name: "Blog",
-        link: "https://www.hoobank.com/blog/",
+        link: "/blog",
       },
       {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
+        name: "Updates",
+        link: "/news",
+      },
+      {
+        name: "Suggest a Feature",
+        link: "/suggest",
       },
     ],
   },
   {
-    title: "Partner",
+    title: "Partnerships",
     links: [
       {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
+        name: "Partner With Us",
+        link: "/partners",
       },
       {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        name: "Affiliate Program",
+        link: "/affiliates",
       },
     ],
   },
@@ -158,29 +166,29 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: instagram,
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/wesperr",
   },
   {
     id: "social-media-2",
     icon: facebook,
-    link: "https://www.facebook.com/",
+    link: "https://www.facebook.com/wesperr",
   },
   {
     id: "social-media-3",
     icon: twitter,
-    link: "https://www.twitter.com/",
+    link: "https://www.twitter.com/wesperr",
   },
   {
     id: "social-media-4",
     icon: linkedin,
-    link: "https://www.linkedin.com/",
+    link: "https://www.linkedin.com/company/wesperr",
   },
 ];
 
 export const clients = [
   {
     id: "client-1",
-    logo: airbnb,
+    logo: airbnb, // Placeholder for future WeSperr case studies
   },
   {
     id: "client-2",

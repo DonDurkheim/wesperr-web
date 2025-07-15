@@ -1,7 +1,5 @@
 import airbnb from "./airbnb.png";
-import bill from "./bill.png";
 import binance from "./binance.png";
-import card from "./card.png";
 import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
 import logo from "./logo.svg";
@@ -20,16 +18,24 @@ import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
-import people01 from "./people01.png";
-import people02 from "./people02.png";
-import people03 from "./people03.png";
+import don from "./don.png";
+import yves from "./yves.png";
+import eric from "./eric.jpg";
+import Alain from "./Alain.jpg";
 import wesperr from "./wesperr.svg";
+import prism from "./prism-ui.png";
+import wallet from "./wallet-ui.png";
+import sights from "./sights-ui.png";
+import dovio from "./dovio-ui.png";
+
 export {
   airbnb,
-  bill,
   binance,
-  card,
   coinbase,
+  prism,
+  wallet,
+  sights,
+  dovio,
   dropbox,
   logo,
   quotes,
@@ -48,7 +54,8 @@ export {
   instagram,
   linkedin,
   twitter,
-  people01,
-  people02,
-  people03,
+  don,
+  yves,
+  eric,
+  Alain,
 };

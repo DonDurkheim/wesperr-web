@@ -1,35 +1,49 @@
-import { apple, bill, google } from "../assets";
-import styles, { layout } from "../style";
+import { dovio, sights, wallet, prism } from "../assets";
+import styles from "../style";
+import { motion } from "framer-motion";
+
+const products = [
+  {
+    name: "Dovio",
+    description: "An AI-powered messaging revolution that gives you total freedom to speak, vanish, connect—and earn from your data like a digital sovereign in control of your own intelligent network.",
+    image: dovio,
+  },
+  {
+    name: "WeSperr Sights",
+    description: "An insights platform that visualizes processed raw data for better decision-making, following a freemium model.",
+    image: sights,
+  },
+  {
+    name: "WeSperr Wallet",
+    description: "A secure digital wallet for managing earnings and transactions within the WeSperr data economy ecosystem.",
+    image: wallet,
+  },
+  {
+    name: "Prism",
+    description: "Prism is the AI-powered platform that flips the narrative—turning AI into a job creator, not a job taker, by matching real people to real opportunities with precision, speed, and dignity.",
+    image: prism,
+  },
+];
 
 const Billing = () => (
   <>
-    <h1 className=" mt-10 text-gradient text-center text-5xl font-bold ">Our Products</h1>
-    <section id="product" className={layout.sectionReverse}>
-      <div className={layout.sectionImgReverse}>
-        <img src={bill} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
-
-        {/* gradient start */}
-        <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
-        <div className="absolute z-[0] w-[50%] h-[50%] -left-1/2 bottom-0 rounded-full pink__gradient" />
-        {/* gradient end */}
-      </div>
-
-      <div className={layout.sectionInfo}>
-        <h2 className= "mt-10 text-gradient text-center text-5xl font-bold" >
-          Davio 
-        </h2>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio
-          aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea
-          placerat.
-        </p>
-
-        <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
-          <img src={apple} alt="google_play" className="w-[128.86px] h-[42.05px] object-contain mr-5 cursor-pointer" />
-          <img src={google} alt="google_play" className="w-[144.17px] h-[43.08px] object-contain cursor-pointer" />
-        </div>
-      </div>
-    </section>
+    <h1 className="mt-10 text-gradient text-center text-5xl font-bold">Our Products</h1>
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-10">
+      {products.map((product, index) => (
+        <motion.div
+          key={index}
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7, delay: index * 0.3 }}
+          viewport={{ once: true }}
+          className="bg-black-gradient-2 rounded-[20px] p-8 flex flex-col items-center"
+        >
+          <img src={product.image} alt={product.name} className="w-full h-auto object-contain rounded-[20px]" />
+          <h2 className="text-white text-2xl font-bold mt-4">{product.name}</h2>
+          <p className={`${styles.paragraph} text-center mt-2`}>{product.description}</p>
+        </motion.div>
+      ))}
+    </div>
   </>
 );
 
