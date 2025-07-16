@@ -50,4 +50,5 @@ const GetStarted = () => (
   </motion.div>
 );
 
+
 export default GetStarted;

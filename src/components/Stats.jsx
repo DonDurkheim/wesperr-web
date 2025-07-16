@@ -1,3 +1,4 @@
+import { useRef } from "react";
 import { stats } from "../constants";
 import styles from "../style";
 import { motion } from "framer-motion";
