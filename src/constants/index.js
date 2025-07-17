@@ -1,4 +1,4 @@
-import { don, yves, eric, Alain, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { don, yves, eric, Alain, freddy, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
 
 export const navLinks = [
   {
@@ -75,6 +75,14 @@ export const feedback = [
     name: "Alain Kwishima",
     title: "Mobile Developer",
     img: Alain,
+  },
+  {
+    id: "feedback-5",
+    content:
+      "Legal Affairs Officer",
+    name: "Freddy",
+    title: "Legal Affairs Officer",
+    img: freddy,
   },
 ];
 

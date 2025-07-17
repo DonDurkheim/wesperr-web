@@ -12,7 +12,7 @@ const FeedbackCard = ({ name, title, img }) => (
     <motion.img
       src={img}
       alt={name}
-      className="w-[120px] h-[120px] rounded-full object-cover border-4 border-transparent group-hover:border-secondary transition-all duration-300"
+      className="w-[240px] h-[240px] rounded-full object-cover border-4 border-transparent group-hover:border-secondary transition-all duration-300"
       whileHover={{ scale: 1.1 }}
     />
     <div className="mt-4">

@@ -22,6 +22,7 @@ import don from "./don.png";
 import yves from "./yves.png";
 import eric from "./eric.jpg";
 import Alain from "./Alain.jpg";
+import freddy from "./freddy.jpg";
 import wesperr from "./wesperr.svg";
 import prism from "./prism-ui.png";
 import wallet from "./wallet-ui.png";
@@ -58,4 +59,5 @@ export {
   yves,
   eric,
   Alain,
+  freddy,
 };

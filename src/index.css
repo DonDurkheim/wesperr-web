@@ -120,9 +120,6 @@ html {
   transition: all 0.3s ease-in-out;
 }
 
-.feedback-container .feedback-card:last-child {
-  margin-right: 0;
-}
 
 .feedback-card {
   background: transparent;
