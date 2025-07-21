@@ -13,6 +13,7 @@ const FeedbackCard = ({ name, title, img }) => (
       src={img}
       alt={name}
       className="w-[240px] h-[240px] rounded-full object-cover border-4 border-transparent group-hover:border-secondary transition-all duration-300"
+      style={name === "Don Durkheim" ? { transform: "rotate(1.7deg) translateY(2px)" } : {}}
       whileHover={{ scale: 1.1 }}
     />
     <div className="mt-4">

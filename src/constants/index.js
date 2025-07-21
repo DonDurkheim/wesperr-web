@@ -1,4 +1,4 @@
-import { don, yves, eric, Alain, freddy, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { don, don_updated, andy, yves, eric, Alain, freddy, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
 
 export const navLinks = [
   {
@@ -47,40 +47,48 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "CEO and Founder",
+      "CEO & Founder",
     name: "Don Durkheim",
-    title: "CEO and Founder",
-    img: don,
+    title: "CEO & Founder",
+    img: don_updated,
   },
   {
     id: "feedback-2",
     content:
       "Chief Technology Officer",
-    name: "ISHIMWE Karamage Yves",
+    name: "Andy Melvin",
     title: "Chief Technology Officer",
-    img: yves,
+    img: andy,
   },
   {
     id: "feedback-3",
     content:
-      "Sales and Marketing Coordinator",
-    name: "Eric Ndayishimiye",
-    title: "Sales and Marketing Coordinator",
-    img: eric,
+      "Project Manager",
+    name: "Yves Ishimwe",
+    title: "Project Manager",
+    img: yves,
   },
   {
     id: "feedback-4",
     content:
-      "Mobile Developer",
+      "Product Manager",
     name: "Alain Kwishima",
-    title: "Mobile Developer",
+    title: "Product Manager",
     img: Alain,
   },
   {
     id: "feedback-5",
     content:
+      "Sales & Marketing Manager",
+    name: "Eric Ndayishimiye",
+    title: "Sales & Marketing Manager",
+    img: eric,
+  },
+  {
+    id: "feedback-6",
+    content:
       "Legal Affairs Officer",
-    name: "Freddy",
+    name: "Freddy Kwihangana",
     title: "Legal Affairs Officer",
     img: freddy,
   },

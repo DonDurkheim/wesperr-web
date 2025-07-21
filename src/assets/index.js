@@ -19,6 +19,8 @@ import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
 import don from "./don.png";
+import don_updated from "./don_updated.png";
+import andy from "./andy.jpg";
 import yves from "./yves.png";
 import eric from "./eric.jpg";
 import Alain from "./Alain.jpg";
@@ -56,6 +58,8 @@ export {
   linkedin,
   twitter,
   don,
+  don_updated,
+  andy,
   yves,
   eric,
   Alain,
