@@ -7,6 +7,11 @@ import { motion } from "framer-motion";
 const Hero = () => {
   const [showGetStarted, setShowGetStarted] = useState(false);
 
+  const scrollToWaitlist = () => {
+    const waitlistSection = document.getElementById('waitlist');
+    waitlistSection.scrollIntoView({ behavior: 'smooth' });
+  };
+
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowGetStarted(true);

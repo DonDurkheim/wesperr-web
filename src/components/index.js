@@ -8,6 +8,8 @@ import Stats from "./Stats";
 import Footer from "./Footer";
 import Testimonials from "./Testimonials";
 import Hero from "./Hero";
+import WaitlistForm from "./WaitlistForm";
+import WaitlistSection from "./WaitlistSection";
 
 export {
   Navbar,
@@ -18,6 +20,8 @@ export {
   CTA,
   Stats,
   Footer,
+  WaitlistForm,
+  WaitlistSection,
   Testimonials,
   Hero,
 };

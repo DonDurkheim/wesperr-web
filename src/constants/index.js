@@ -1,4 +1,5 @@
-import { don, don_updated, andy, yves, eric, Alain, freddy, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { don_updated, barsime_updated, eric, freddy, andy, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+
 
 export const navLinks = [
   {
@@ -55,41 +56,49 @@ export const feedback = [
   {
     id: "feedback-2",
     content:
-      "Chief Technology Officer",
-    name: "Andy Melvin",
-    title: "Chief Technology Officer",
-    img: andy,
+      "Chief Operating Officer",
+    name: "Alain Kwishima",
+    title: "Chief Operating Officer",
+    // img: andy,
   },
   {
     id: "feedback-3",
     content:
-      "Project Manager",
-    name: "Yves Ishimwe",
-    title: "Project Manager",
-    img: yves,
+      "Chief Technology Officer",
+    name: "Alain Barsime",
+    title: "Chief Technology Officer",
+    img: barsime_updated,
   },
   {
     id: "feedback-4",
     content:
-      "Product Manager",
-    name: "Alain Kwishima",
-    title: "Product Manager",
-    img: Alain,
+      "Lead Frontend Engineer",
+    name: "Yvan Rubuto",
+    title: "Lead Frontend Engineer",
+    // img: barsime_updated,
   },
   {
     id: "feedback-5",
     content:
-      "Sales & Marketing Manager",
-    name: "Eric Ndayishimiye",
-    title: "Sales & Marketing Manager",
-    img: eric,
+      "Lead Product Designer",
+    name: "Pattrick Ihirwe",
+    title: "Lead Product Designer",
+    // img: eric,
   },
   {
     id: "feedback-6",
     content:
+      "Head of Business & Growth",
+    name: "Eric Ndayishimiye",
+    title: "Head of Business & Growth",
+    img: eric,
+  },
+  {
+    id: "feedback-7",
+    content:
       "Legal Affairs Officer",
     name: "Freddy Kwihangana",
-    title: "Legal Affairs Officer",
+    title: "Head of Legal & Compliance",
     img: freddy,
   },
 ];
@@ -97,18 +106,18 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Accounts",
-    value: "50,000+",
+    title: "Waitlist Signups",
+    value: "864+",
   },
   {
     id: "stats-2",
-    title: "Data Transactions",
-    value: "1M+",
+    title: "Countries Represented",
+    value: "7",
   },
   {
-    id: "stats-3",
-    title: "User Payouts",
-    value: "$500K+",
+  id: "stats-3",
+    title: "Pilot Organizations",
+    value: "12",
   },
 ];
 

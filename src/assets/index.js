@@ -30,6 +30,7 @@ import prism from "./prism-ui.png";
 import wallet from "./wallet-ui.png";
 import sights from "./sights-ui.png";
 import dovio from "./dovio-ui.png";
+import barsime_updated from './barsime_updated.png'
 
 export {
   airbnb,
@@ -64,4 +65,5 @@ export {
   eric,
   Alain,
   freddy,
+  barsime_updated
 };
