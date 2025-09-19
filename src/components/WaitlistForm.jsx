@@ -49,8 +49,8 @@ const WaitlistForm = () => {
             disabled={status === "loading" || status === "success"}
             className="font-poppins font-normal text-[16px] leading-[24px] text-white 
                      bg-black-gradient border-2 border-secondary rounded-[10px]
-                     py-4 px-6 w-full focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-500/50
-                     disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-300"
+                     py-4 px-6 w-full focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-500/70
+                     hover:border-blue-400 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-300"
           />
         </div>
         <div className="relative flex-1">
@@ -62,8 +62,8 @@ const WaitlistForm = () => {
             disabled={status === "loading" || status === "success"}
             className="font-poppins font-normal text-[16px] leading-[24px] text-white 
                      bg-black-gradient border-2 border-secondary rounded-[10px]
-                     py-4 px-6 w-full focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-500/50
-                     disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-300"
+                     py-4 px-6 w-full focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-500/70
+                     hover:border-blue-400 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-300"
           />
         </div>
 
@@ -74,7 +74,7 @@ const WaitlistForm = () => {
           whileTap={{ scale: 0.98 }}
           className="font-poppins font-medium text-[18px] leading-[24px] text-primary 
                    bg-blue-gradient rounded-[10px]
-                   py-4 px-8 hover:shadow-lg hover:brightness-110 transition-all duration-300
+                   py-4 px-8 hover:shadow-lg hover:shadow-blue-500/50 hover:brightness-110 transition-all duration-300
                    disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100
                    relative overflow-hidden"
         >

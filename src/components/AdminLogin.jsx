@@ -17,7 +17,7 @@ const AdminLogin = () => {
   };
 
   return (
-    <div className="min-h-screen bg-primary flex items-center justify-center p-6">
+    <div className="min-h-screen bg-primary flex items-center justify-center p-6 h-full">
       <div className="bg-black-gradient rounded-xl p-8 w-full max-w-md">
         <h2 className="text-white font-poppins text-3xl font-bold mb-6 text-center">Admin Login</h2>
         

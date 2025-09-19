@@ -21,7 +21,7 @@ html, body {
 }
 
 #root {
-  transform: scale(0.8); /* Apply global scaling */
+  transform: scale(0.823); /* Apply global scaling */
   transform-origin: top left; /* Scale from top-left corner */
   width: 125%; /* Compensate for scaling */
   height: 125%; /* Compensate for scaling */

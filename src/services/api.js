@@ -1,7 +1,9 @@
 import axios from 'axios';
+import dotenv from "dotenv";
+dotenv.config();
 
 const api = axios.create({
-  baseURL: 'http://localhost:3000',
+  baseURL: import.meta.env.VITE_API_BASE_URL || 'https://wesperr.com:3000/waitlist',
 });
 
 export const waitlistAPI = {

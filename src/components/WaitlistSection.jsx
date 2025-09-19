@@ -44,24 +44,20 @@ const StatCard = ({ value, label, delay = 0 }) => (
 const WaitlistSection = () => (
   <section id="waitlist" className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} flex-col bg-black-gradient-2 rounded-[20px] box-shadow relative overflow-hidden`}>
     {/* Background Animation */}
-    <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent animate-shimmer" 
-      style={{ 
-        backgroundSize: '200% 100%',
-        animation: 'shimmer 2s infinite linear'
-      }} 
-    />
+    <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent animate-shimmer" />
     
     {/* Main Content */}
-    <div className="relative z-[1] flex flex-col items-center text-center mb-10">
+    <div className="relative z-[1] flex md:flex-row flex-col items-center md:justify-between w-full">
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
+        className="flex-1 flex flex-col md:text-left text-center md:mb-0 mb-10"
       >
-        <h2 className={`${styles.heading2} text-center max-w-[800px]`}>
+        <h2 className={`${styles.heading2}`}>
           Join The waitlist!
         </h2>
-        <p className={`${styles.paragraph} text-center max-w-[600px] mt-5`}>
+        <p className={`${styles.paragraph} mt-5`}>
           Join thousands of early adopters who are already positioned to benefit from the future of personal data monetization.
         </p>
       </motion.div>
@@ -70,7 +66,7 @@ const WaitlistSection = () => (
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.2 }}
-        className="mt-10 w-full max-w-[500px]"
+        className="flex-1 w-full max-w-[500px] md:ml-10"
       >
         <WaitlistForm />
       </motion.div>
