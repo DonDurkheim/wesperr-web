@@ -58,7 +58,7 @@ const WaitlistForm = () => {
             type="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            placeholder="Enter your email to join"
+            placeholder="Enter your email"
             disabled={status === "loading" || status === "success"}
             className="font-poppins font-normal text-[16px] leading-[24px] text-white 
                      bg-black-gradient border-2 border-secondary rounded-[10px]
