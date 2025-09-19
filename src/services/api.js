@@ -1,15 +1,13 @@
 import axios from 'axios';
-import dotenv from "dotenv";
-dotenv.config();
+const { VITE_API_BASE_URL, PROD } = import.meta.env;
+const baseURL = PROD ? "" : (VITE_API_BASE_URL || "http://localhost:3000");
 
-const api = axios.create({
-  baseURL: import.meta.env.VITE_API_BASE_URL || 'https://wesperr.com:3000/waitlist',
-});
+const api = axios.create({ baseURL });
 
 export const waitlistAPI = {
   join: async (name, email) => {
     try {
-      const response = await api.post('/waitlist', { name, email });
+      const response = await api.post('/api/waitlist', { name, email });
       return response.data;
     } catch (error) {
       if (error.response && error.response.status === 400) {
@@ -21,7 +19,7 @@ export const waitlistAPI = {
 
   getAll: async () => {
     try {
-      const response = await api.get('/waitlist');
+      const response = await api.get('/api/waitlist');
       return response.data;
     } catch (error) {
       throw new Error('Failed to fetch waitlist');
@@ -30,7 +28,7 @@ export const waitlistAPI = {
 
   delete: async (id) => {
     try {
-      const response = await api.delete(`/waitlist/${id}`);
+      const response = await api.delete(`/api/waitlist/${id}`);
       return response.data;
     } catch (error) {
       throw new Error('Failed to delete waitlist entry');
