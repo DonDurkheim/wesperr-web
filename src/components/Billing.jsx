@@ -1,27 +1,17 @@
-import { dovio, sights, wallet, prism } from "../assets";
+import { dovio, sights } from "../assets";
 import styles from "../style";
 import { motion } from "framer-motion";
 
 const products = [
   {
     name: "Dovio",
-    description: "An AI-powered messaging revolution that gives you total freedom to speak, vanish, connect—and earn from your data like a digital sovereign in control of your own intelligent network.",
+    description: "The world’s first messaging app where users don’t just chat—they gain control of their data, enjoy personalized AI support, and earn real rewards for sharing feedback on their own terms.",
     image: dovio,
   },
   {
     name: "WeSperr Sights",
-    description: "An insights platform that visualizes processed raw data for better decision-making, following a freemium model.",
+    description: "The world’s first business engine built on ethical data exchange, giving companies authentic, consent-driven insights while helping them design better products, launch smarter campaigns, and build lasting trust with customers.",
     image: sights,
-  },
-  {
-    name: "WeSperr Wallet",
-    description: "A secure digital wallet for managing earnings and transactions within the WeSperr data economy ecosystem.",
-    image: wallet,
-  },
-  {
-    name: "Prism",
-    description: "Prism is the AI-powered platform that flips the narrative—turning AI into a job creator, not a job taker, by matching real people to real opportunities with precision, speed, and dignity.",
-    image: prism,
   },
 ];
 

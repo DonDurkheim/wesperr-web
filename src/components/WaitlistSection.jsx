@@ -76,39 +76,8 @@ const WaitlistSection = () => (
       </motion.div>
     </div>
 
-    {/* Stats Section */}
-    <motion.div 
-      initial={{ opacity: 0, y: 20 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.5, delay: 0.4 }}
-      className="flex flex-wrap justify-center gap-6 mb-16"
-    >
-      <StatCard value="50K+" label="Users Waitlisted" delay={0.5} />
-      <StatCard value="$500" label="Avg. Monthly Earnings" delay={0.6} />
-      <StatCard value="100+" label="AI Partners" delay={0.7} />
-    </motion.div>
-
-    {/* Features Grid */}
-    <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-[1200px]">
-      <FeatureCard
-        icon={star}
-        title="Early Access Bonus"
-        content="Get premium features and higher earning potential as an early adopter."
-        delay={0.8}
-      />
-      <FeatureCard
-        icon={shield}
-        title="Zero-Risk Trial"
-        content="Test the platform risk-free and withdraw earnings instantly."
-        delay={0.9}
-      />
-      <FeatureCard
-        icon={send}
-        title="Priority Support"
-        content="Get dedicated support and first access to new features."
-        delay={1.0}
-      />
-    </div>
+    
+    
   </section>
 );
 
