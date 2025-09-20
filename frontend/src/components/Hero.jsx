@@ -41,7 +41,7 @@ const Hero = () => {
             transition={{ duration: 0.7, delay: 0.2 }}
             className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
             Your Data Built<br className="sm:block hidden" />{" "}
-            <span className="text-gradient">Empires</span>{" "}
+            <span className="text-gradient">Empires.</span>{" "}
           </motion.h1>
 
           <div className="ss:flex hidden md:mr-4 mr-0">
