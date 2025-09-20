@@ -1,6 +1,6 @@
 import axios from 'axios';
 const { VITE_API_BASE_URL, PROD } = import.meta.env;
-const baseURL = PROD ? "" : (VITE_API_BASE_URL || "https://wesperr-web-backend.onrender.com");
+const baseURL = VITE_API_BASE_URL || "https://wesperr-web-backend.onrender.com";
 
 const api = axios.create({ baseURL });
 
