@@ -1,0 +1,28 @@
+{
+  "name": "wesperr-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "frontend": "cd frontend && npm run dev",
+    "backend": "cd backend && nodemon server.js",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "build": "cd frontend && npm ci && npm run build",
+    "preview": "npm --prefix frontend run preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DonDurkheim/wesperr-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/DonDurkheim/wesperr-web/issues"
+  },
+  "homepage": "https://github.com/DonDurkheim/wesperr-web#readme",
+  "dependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
