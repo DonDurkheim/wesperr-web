@@ -1,4 +1,4 @@
-import { don_updated, barsime_updated, eric, freddy, andy, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { don_updated, barsime_updated, eric, freddy, andy, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, rubuto  } from "../assets";
 
 
 export const navLinks = [
@@ -75,7 +75,7 @@ export const feedback = [
       "Lead Frontend Engineer",
     name: "Yvan Rubuto",
     title: "Lead Frontend Engineer",
-    // img: barsime_updated,
+    // img: rubuto,
   },
   {
     id: "feedback-5",
