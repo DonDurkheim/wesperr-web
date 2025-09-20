@@ -67,7 +67,7 @@ export const feedback = [
       "Chief Technology Officer",
     name: "Alain Barsime",
     title: "Chief Technology Officer",
-    img: barsime_updated,
+    // img: barsime_updated,
   },
   {
     id: "feedback-4",

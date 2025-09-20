@@ -30,7 +30,7 @@ import prism from "./prism-ui.png";
 import wallet from "./wallet-ui.png";
 import sights from "./sights-ui.png";
 import dovio from "./dovio-ui.png";
-import barsime_updated from './barsime_updated.png';
+import barsime_updated from './barsime_updated.jpg';
 import rubuto from './rubuto.png';
 import placeholder from './placeholder.jpg';
 
