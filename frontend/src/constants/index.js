@@ -83,7 +83,7 @@ export const feedback = [
       "Lead Product Designer",
     name: "Patrick Ihirwe",
     title: "Lead Product Designer",
-    img: pazzo,
+    // img: pazzo,
   },
   {
     id: "feedback-6",
