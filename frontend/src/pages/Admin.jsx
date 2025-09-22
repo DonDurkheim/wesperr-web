@@ -87,9 +87,13 @@ const Admin = () => {
                       <td className="text-white font-poppins p-4">{index + 1}</td>
                       <td className="text-white font-poppins p-4">{entry.name}</td>
                       <td className="text-white font-poppins p-4">{entry.email}</td>
-                      <td className="text-dimWhite font-poppins p-4">
-                        {new Date(entry.created_at).toLocaleString()}
-                      </td>
+                    <td className="text-dimWhite font-poppins p-4">
+                      {(() => {
+                        const date = new Date(entry.created_at);
+                        date.setHours(date.getHours() + 2); // Add 2 hours
+                        return date.toLocaleString();
+                      })()}
+                    </td>
                       <td className="p-4">
                         <button
                           onClick={() => handleDelete(entry.id)}
