@@ -33,6 +33,8 @@ import dovio from "./dovio-ui.png";
 import barsime_updated from './barsime_updated.jpg';
 import rubuto from './rubuto.png';
 import placeholder from './placeholder.jpg';
+import pazzo from './pazzo.png';
+import barsime_old from './barsime_old.jpg';
 
 export {
   airbnb,
@@ -69,5 +71,7 @@ export {
   freddy,
   barsime_updated,
   rubuto,
-  placeholder
+  placeholder,
+  pazzo,
+  barsime_old
 };

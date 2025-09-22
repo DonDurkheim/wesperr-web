@@ -1,4 +1,4 @@
-import { don_updated, barsime_updated, eric, freddy, andy, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, rubuto  } from "../assets";
+import { don_updated, barsime_updated, eric, freddy, andy, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, rubuto, pazzo, barsime_old  } from "../assets";
 
 
 export const navLinks = [
@@ -67,7 +67,7 @@ export const feedback = [
       "Chief Technology Officer",
     name: "Alain Barsime",
     title: "Chief Technology Officer",
-    // img: barsime_updated,
+    img: barsime_old,
   },
   {
     id: "feedback-4",
@@ -81,9 +81,9 @@ export const feedback = [
     id: "feedback-5",
     content:
       "Lead Product Designer",
-    name: "Pattrick Ihirwe",
+    name: "Patrick Ihirwe",
     title: "Lead Product Designer",
-    // img: eric,
+    img: pazzo,
   },
   {
     id: "feedback-6",
