@@ -11,8 +11,16 @@ const WaitlistForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
     if (!name || !email) {
       setErrorMessage("Name and Email are required.");
+      setStatus("error");
+      return;
+    }
+
+    if (!emailRegex.test(email)) {
+      setErrorMessage("Please enter a valid email address.");
       setStatus("error");
       return;
     }
