@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/DonDurkheim/wesperr-web/issues"
   },
-  "homepage": "https://github.com/DonDurkheim/wesperr-web#readme"
+  "homepage": "https://github.com/DonDurkheim/wesperr-web#readme",
+  "dependencies": {
+    "@vercel/analytics": "^1.5.0"
+  }
 }
