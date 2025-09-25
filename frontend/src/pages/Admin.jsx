@@ -55,7 +55,7 @@ const Admin = () => {
   }
 
   return (
-    <div className="min-h-screen bg-primary p-6 h-full">
+    <div className="min-h-screen bg-primary p-6 h-auto">
       <div className="max-w-6xl mx-auto">
         <div className="flex justify-between items-center mb-8">
           <h1 className="text-white font-poppins text-4xl font-bold">Waitlist Admin</h1>
