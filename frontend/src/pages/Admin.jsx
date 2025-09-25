@@ -40,7 +40,7 @@ const Admin = () => {
 
   if (loading) {
     return (
-      <div className="flex items-center justify-center min-h-screen bg-primary">
+      <div className="flex items-center justify-center h-full bg-primary">
         <div className="text-white font-poppins">Loading...</div>
       </div>
     );
