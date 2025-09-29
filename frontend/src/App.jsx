@@ -1,5 +1,5 @@
 import styles from "./style";
-import { Billing, Business, CTA, Footer, Navbar, Stats, Testimonials, Hero, WaitlistSection } from "./components";
+import { Billing, Business, CTA, Footer, Navbar, Stats,TrustedBy, Testimonials, Hero, WaitlistSection } from "./components";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Admin from "./pages/Admin";
 import AdminLogin from "./components/AdminLogin";
@@ -24,6 +24,7 @@ const HomePage = () => (
     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Stats />
+        <TrustedBy />
         <Business />
         <Billing />
         <Testimonials />

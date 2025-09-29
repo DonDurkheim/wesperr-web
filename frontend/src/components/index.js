@@ -4,6 +4,7 @@ import CardDeal from "./CardDeal";
 import Business from "./Business";
 import Clients from "./Clients";
 import CTA from "./CTA";
+import TrustedBy from "./TrustedBy";
 import Stats from "./Stats";
 import Footer from "./Footer";
 import Testimonials from "./Testimonials";
@@ -19,6 +20,7 @@ export {
   Clients,
   CTA,
   Stats,
+  TrustedBy,
   Footer,
   WaitlistForm,
   WaitlistSection,
