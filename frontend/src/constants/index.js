@@ -116,7 +116,7 @@ export const stats = [
   },
   {
   id: "stats-3",
-    title: "Pilot Organizations",
+    title: "Data listing licenses",
     value: "12",
   },
 ];
