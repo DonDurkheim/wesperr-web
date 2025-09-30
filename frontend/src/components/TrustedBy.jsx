@@ -32,17 +32,26 @@ const TrustedBy = () => {
 
       {/* Carousel */}
       <div className="relative w-full overflow-hidden">
-        <div className="carousel flex animate-slide gap-28">
+        <div className="carousel flex animate-slide gap-24 items-center">
           {[...companyLogos, ...companyLogos].map((logo, index) => {
-            const isIBM = logo.toLowerCase().includes("ibm"); // adjust if filename contains 'ibm'
+            const isIBM = logo.toLowerCase().includes("ibm");
+            // dynamic height: IBM slightly bigger, others random
+            const randomHeight = isIBM
+              ? 80
+              : 50 + (index % 4) * 10; // height in px
             return (
               <img
                 key={index}
                 src={logo}
                 alt={`company-${index}`}
-                className={`w-auto object-contain hover:scale-105 transition-transform duration-300 ${
-                  isIBM ? "h-20 sm:h-20 xs:h-16" : "h-16 sm:h-16 xs:h-12"
-                }`}
+                style={{
+                  height: `${randomHeight}px`,
+                  width: "auto",
+                  maxWidth: "100%",
+                  objectFit: "contain",
+                  transition: "transform 0.3s",
+                }}
+                className="hover:scale-105"
               />
             );
           })}
@@ -67,20 +76,21 @@ const TrustedBy = () => {
         }
 
         @media (max-width: 1024px) {
-          .carousel img {
-            height: auto !important; /* overridden by inline classes */
-          }
           .carousel {
             gap: 5rem !important;
+          }
+          .carousel img {
+            height: auto !important;
+            max-height: 60px;
           }
         }
 
         @media (max-width: 640px) {
-          .carousel img {
-            height: auto !important; /* overridden by inline classes */
-          }
           .carousel {
-            gap: 3.5rem !important;
+            gap: 3rem !important;
+          }
+          .carousel img {
+            max-height: 40px;
           }
         }
       `}</style>
