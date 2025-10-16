@@ -27,7 +27,7 @@ const HomePage = () => (
         <TrustedBy />
         <Business />
         <Billing />
-        //<Testimonials />
+        <Testimonials />
         <WaitlistSection />
         <CTA />
         <Footer />
@@ -51,6 +51,7 @@ const App = () => (
 );
 
 export default App;
+
 
 
 
